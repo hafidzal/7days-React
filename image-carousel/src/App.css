@@ -26,8 +26,8 @@
 }
 
 img {
-  width: 100%;
-  height: 100%;
+  width: 40rem;
+  height: 40rem;
   object-fit: contain;
 }
 
@@ -59,4 +59,19 @@ img {
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.left-arrow {
+  margin-right: 2rem;
+  font-size: 100px;
+  background-color: transparent;
+  border: none;
+}
+
+.right-arrow {
+  margin-left: 2rem;
+  font-size: 100px;
+  background-color: transparent;
+  border: none;
 }
