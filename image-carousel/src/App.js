@@ -20,10 +20,10 @@ function App() {
     setCurrent(current === 0 ? images.length - 1 : current - 1)
   }
   return (
-    <div className="App">
-      <h1>Image Carousel</h1>
+    <div className="App bg-sky-900 h-full flex flex-col justify-center">
+      <h1 className="text-4xl text-sky-600 my-4 font-bold">carousel.</h1>
       <div className="slider">
-        <button className="left-arrow" onClick={prevSlide}>
+        <button className="mx-3 px-2 py-1 text-2xl bg-sky-500 opacity-50 rounded-full hover:animate-bounce"  onClick={prevSlide}>
           &larr;
         </button>
           {
@@ -34,7 +34,7 @@ function App() {
             ) 
           }
 
-        <button className="right-arrow" onClick={nextSlide}>
+        <button className="mx-3 px-2 py-1 text-2xl bg-sky-500 opacity-50 rounded-full hover:animate-bounce" onClick={nextSlide}>
           &rarr;
         </button>
       </div>

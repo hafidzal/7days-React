@@ -1,12 +1,7 @@
 .App {
   text-align: center;
+  max-height: 100%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 
 .slider {
   position: relative;
@@ -63,15 +58,11 @@ img {
 
 
 .left-arrow {
-  margin-right: 2rem;
-  font-size: 100px;
   background-color: transparent;
   border: none;
 }
 
 .right-arrow {
-  margin-left: 2rem;
-  font-size: 100px;
   background-color: transparent;
   border: none;
 }
