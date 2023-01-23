@@ -12,6 +12,7 @@ const images = [
 
 function App() {
   const [current, setCurrent] = useState(0);
+  
   function nextSlide() {
     setCurrent(current === images.length - 1 ? 0 : current + 1);
   }
